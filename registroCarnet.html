@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BBC</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#">Iniciar Sesión</a>
+              <a class="nav-link" href="#">Registrarme</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <section>
+        <div class="mt-5 d-flex justify-content-center w-100">
+            <div class="w-50 border p-4 rounded shadow">
+
+                <h2 class="text-center mb-4">Registro Carnet</h2>
+
+                <div class="mb-3">
+                    <label for="nombres" class="form-label">Nombres</label>
+                    <input type="text" class="form-control" id="nombres" placeholder="Digite nombres completos" >
+                </div>
+
+                <div class="mb-3">
+                    <label for="apellidos" class="form-label">Apellidos</label>
+                    <input type="text" class="form-control" id="apellidos" placeholder="Ingresa tus Apellidos">
+                </div>
+
+                <div class="mb-3">
+                  <label for="edad" class="form-label">Edad</label>
+                  <input type="number" class="form-control" id="edad" placeholder="Ingresa tu Edad">
+              </div>      
+
+              <div class="mb-3">
+                <label for="cargo" class="form-label">Cargo</label>
+                <input type="text" class="form-control" id="cargo" placeholder="Ingresa tu Cargo">
+            </div>
+
+            
+            
+            <div class="mb-3">
+              <label for="RH" class="form-label">RH</label>
+              <input type="text" class="form-control" id="RH" placeholder="Grupo Sanguineo">
+          </div>
+
+          
+          <div class="mb-3">
+            <label for="documento" class="form-label">Numero Documento</label>
+            <input type="number" class="form-control" id="documento" placeholder="Ingresa tu Numero de Documento">
+        </div>
+
+        <div class="mb-3">
+          <label for="telefono" class="form-label">Telefono</label>
+          <input type="telefono" class="form-control" id="telefono" placeholder="Ingresa tu Numero Telefonico">
+      </div>
+
+
+
+                <a class="btn btn-success btn-sm" href="#" onclick="register()">Crear Registro</a>
+
+            </div>
+        </div>
+
+    </section>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
